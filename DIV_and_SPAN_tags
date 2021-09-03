@@ -1,0 +1,28 @@
+#THEORY
+#DIV is a Block-Level element, which means it is printed in a new line alone.No other element is printed with div, every div needs new line to get printed.
+#SPAN is an Inline-Level element, which means it is printed in the same line. No new line is used by the span element to get printed.
+#Block-Level elements can contains Inline elements but vice-versa is not possoble.
+#It implies that DIV can contains SPAN but SPAN can not contani DIV elements.
+
+
+#HERE IS THE CODE
+#
+
+<!doctile html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>div and span elements</title>
+    </head>
+    <body>
+        <div>*** DIV 1: some content here ***</div>
+        <div>*** DIV 2: following right after div 1***</div>
+        <span>*** SPAN 1: Following right after div 2***</span>
+        <div>
+            ***DIV 3: Following right after span 1
+            <span>*** SPAN 2: inside div 3 ***</span>
+            Continue with div 3***
+        </div>
+    </body>
+</html>
+
